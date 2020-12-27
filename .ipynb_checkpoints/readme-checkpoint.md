@@ -13,3 +13,12 @@ The project should follow the guideline as:
 7. Using unsupervised technique, visualize bar graphs for clusters containing 10 author documents. Adjust by silhouette scores. 
 8. Using LSA, LDA and NNMF, print out top ten words (with their highest loading) for each topic modeling. Analyze and compare among three methods. 
 9. Write up analysis and conclusions.  
+
+
+# serial_test.ipynb
+
+I experienced a lot of snags during the data cleaning process. I had too many documents and was getting a lot of insufficient memory errors. 
+
+I have created and saved serial_test.ipynb to display some of my decision making. This is to help answer any questions such as why I choose the number of documents that I've selected, etc. 
+
+It's named serial_test because the process ended with which serialization method that I'm using to save the documents. 
